@@ -45,7 +45,8 @@ over view
 - Parameters:
   - id: Task ID
 - Response:
-  - Status: 204 No Content
+  - Status: 200 OK
+  - Body: { "message": "Task removed" }
   - Status: 404 Not Found (if task not found)
 
 
